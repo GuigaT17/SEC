@@ -1,0 +1,6 @@
+87f52763-f092-4de1-8632-a52e7901ef61:texto:fc49021:mensagem inutil
+db2bde3f-1a52-4665-8c19-4fdfc71e3529:texto:fc49021:gabriel nao sabe de nada
+0fbe1463-e83e-4933-9aa0-eb0156de5a41:texto:fc49021:ta tduo
+a4f3e681-53fc-4c3d-9762-47207ba70abd:texto:fc49021:rgiiebg
+5312fdc1-ab4b-435f-b9e0-5c655bebe915:foto:fc49021:lena.jpg
+b685ab60-1d34-4546-aab5-c380d3ffc23a:foto:fc49021:lena.jpg

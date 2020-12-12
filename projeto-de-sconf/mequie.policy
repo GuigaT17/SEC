@@ -1,0 +1,8 @@
+/* AUTOMATICALLY GENERATED ON Sat Mar 21 11:54:01 GMT 2020*/
+/* DO NOT EDIT */
+
+grant codeBase "file:${user.home}${/}SegC-grupo66-proj1${/}Mequie" {
+  permission java.io.FilePermission "file:${user.home}${/}SegC-grupo66-proj1${/}Mequie", "read, write";
+  permission java.net.SocketPermission ":5000-", "accept, listen";
+};
+

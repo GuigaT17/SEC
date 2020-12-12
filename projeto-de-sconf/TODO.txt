@@ -1,0 +1,22 @@
+O Guilherme disse para apagar features so meio implementadas portanto vou cortar maioria do que tinha feito de I/O e server/clients
+
+Heis o que falta fazer:
+
+1. Imprimir resultados de ginfo em mequie
+2. Mudar UInfoResponse para tambem ter os grupos de que o user é dono (e mudanças necessarias ao servidor)
+3. Imprimir resultados de uinfo em mequie
+4. Enviar foto/file na classe Cliente
+5. Ler bem a foto no metodo collect de Cliente
+9. So se pode criar mensagens, foto ou texto, por acesso ao catalogo. Logo o Cliente nao pode criar um Message
+   Ou criamos um classe facade para isso, ou nao guardamos mensagens no cliente (que nao e preciso, so dar print)
+   a exceção das fotos que ja sao identificadas pelo path
+   tl:dr fazer o collect e o history outra vez
+
+NOTA: QUANDO É CHAMADO UM COLLECT, TEM QUE SE CHAMAR O REFRESCARHISTORICO DA CLASSE GRUPO
+
+Possivelmente podemos mudar algumas coisas para escrever num ficheiro e depois enviar o ficheiro em vez de varios envios
+Se o nosso codigo estiver meio lento 
+E tirar o arraylist de grupos do utilizador e percorrer antes os grupos todos que embora seja mais demorado, torna o codigo mais simples
+
+De resto, só debugging geral. Deviam por SonarLint porque queixa-se de coisas que o Eclipse nao se queixa, mas 
+tambem não é preciso tratar todos os erros, alguns sao estupidos.
